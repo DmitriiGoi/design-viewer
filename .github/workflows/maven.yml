@@ -33,7 +33,7 @@ jobs:
           [{
             "id": "registry-1.docker.io",
             "username": "goydmitriy",
-            "password": "${{ secrets.DOCKER_REGISTRY_TOKEN }}"
+            "password": "${{secrets.DOCKER_REGISTRY_TOKEN}}"
           }]
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
